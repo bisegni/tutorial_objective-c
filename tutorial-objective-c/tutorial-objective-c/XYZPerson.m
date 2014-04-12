@@ -25,8 +25,9 @@
     return self;
 }
 
--(void) sayHello {
-    NSLog(@"Hi, i'm %@ %@", self.firstName, self.secondName);
+-(NSString*) getSayHello {
+    NSString *sayHelloStr = [NSString stringWithFormat:@"Hi, i'm %@ %@", self.firstName, self.secondName];
+    return sayHelloStr;
 }
 
 @end

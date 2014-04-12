@@ -10,6 +10,7 @@
 		3217647918F196C400E2682E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3217647818F196C400E2682E /* Foundation.framework */; };
 		3217647C18F196C400E2682E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3217647B18F196C400E2682E /* main.m */; };
 		321764C818F1995000E2682E /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 321764C718F1995000E2682E /* XYZPerson.m */; };
+		321D0F6018F99F3700E88810 /* NSString+PersonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D0F5F18F99F3700E88810 /* NSString+PersonUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		3217647E18F196C400E2682E /* tutorial-objective-c-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tutorial-objective-c-Prefix.pch"; sourceTree = "<group>"; };
 		321764C618F1995000E2682E /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		321764C718F1995000E2682E /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		321D0F5E18F99F3700E88810 /* NSString+PersonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PersonUtility.h"; sourceTree = "<group>"; };
+		321D0F5F18F99F3700E88810 /* NSString+PersonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PersonUtility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				3217647D18F196C400E2682E /* Supporting Files */,
 				321764C618F1995000E2682E /* XYZPerson.h */,
 				321764C718F1995000E2682E /* XYZPerson.m */,
+				321D0F5E18F99F3700E88810 /* NSString+PersonUtility.h */,
+				321D0F5F18F99F3700E88810 /* NSString+PersonUtility.m */,
 			);
 			path = "tutorial-objective-c";
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				321764C818F1995000E2682E /* XYZPerson.m in Sources */,
+				321D0F6018F99F3700E88810 /* NSString+PersonUtility.m in Sources */,
 				3217647C18F196C400E2682E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +261,7 @@
 				3217648518F196C400E2682E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

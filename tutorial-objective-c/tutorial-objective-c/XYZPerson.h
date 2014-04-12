@@ -19,6 +19,6 @@
 -(id) initWithName:(NSString*)name
            surname:(NSString*)surname;
 
--(void) sayHello;
+-(NSString*) getSayHello;
 
 @end
