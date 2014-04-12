@@ -21,7 +21,10 @@ int main(int argc, const char * argv[])
         
         [person sayHello];
         
-        NSLog(@"Start");
+        
+        XYZPerson *secondPerson = [[XYZPerson alloc] initWithName:@"Claudio"
+                                                          surname:@"Bisegni"];
+        [secondPerson sayHello];
     }
     return 0;
 }

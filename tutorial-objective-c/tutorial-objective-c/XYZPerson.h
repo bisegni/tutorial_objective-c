@@ -13,6 +13,9 @@
 @property NSString *firstName;
 @property NSString *secondName;
 
+-(id) initWithName:(NSString*)name
+           surname:(NSString*)surname;
+
 -(void) sayHello;
 
 @end
