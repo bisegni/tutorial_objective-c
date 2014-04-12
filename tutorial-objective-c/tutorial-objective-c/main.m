@@ -22,8 +22,8 @@ int main(int argc, const char * argv[])
         [person sayHello];
         
         
-        XYZPerson *secondPerson = [[XYZPerson alloc] initWithName:@"Claudio"
-                                                          surname:@"Bisegni"];
+        XYZPerson *secondPerson = [XYZPerson personWithName:@"Claudio"
+                                                    surname:@"Bisegni"];
         [secondPerson sayHello];
     }
     return 0;

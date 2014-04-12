@@ -10,6 +10,12 @@
 
 @implementation XYZPerson
 
++(id) personWithName:(NSString*)name
+             surname:(NSString*)surname {
+    return [[XYZPerson alloc] initWithName:name
+                                   surname:surname];
+}
+
 -(id) initWithName:(NSString*)name
            surname:(NSString*)surname {
     if(self = [super init]) {
