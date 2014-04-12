@@ -10,8 +10,8 @@
 #import "NSString+PersonUtility.h"
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
-{
+void askToGoodPerson(id<GoodBeaviour> goodPerson);
+int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
         // insert code here...
@@ -32,7 +32,17 @@ int main(int argc, const char * argv[])
         
         //here is the magic for of the categories 
         NSLog(@"%@", [sayHelloStr addFolkAttention]);
+        
+        //use of portocoll
+        secondPerson.age = [NSNumber numberWithInt:41];
+        secondPerson.sex = @"Male";
+        askToGoodPerson(person);
+        askToGoodPerson(secondPerson);
     }
     return 0;
 }
 
+void askToGoodPerson(id<GoodBeaviour> goodPerson) {
+    NSLog(@"what is your age? %@", [goodPerson whatIsYourAge]);
+    NSLog(@"what si your sex? %@", [goodPerson whatIsYourSex]);
+}

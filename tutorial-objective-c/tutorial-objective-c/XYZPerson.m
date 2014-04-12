@@ -16,6 +16,14 @@
                                    surname:surname];
 }
 
+-(id) init {
+    if(self = [super init]) {
+        self.age = 0;
+        self.sex = @"Male";
+    }
+    return self;
+}
+
 -(id) initWithName:(NSString*)name
            surname:(NSString*)surname {
     if(self = [super init]) {
@@ -26,8 +34,16 @@
 }
 
 -(NSString*) getSayHello {
-    NSString *sayHelloStr = [NSString stringWithFormat:@"Hi, i'm %@ %@", self.firstName, self.secondName];
-    return sayHelloStr;
+    return [NSString stringWithFormat:@"Hi, i'm %@ %@", self.firstName, self.secondName];
 }
 
+
+//-----------------protocol---------------
+- (NSString*)whatIsYourAge {
+    return [NSString stringWithFormat:@"My age is %ld", (long)[self.age integerValue]];
+}
+
+- (NSString*)whatIsYourSex {
+     return [NSString stringWithFormat:@"I'm %@", self.sex];
+}
 @end

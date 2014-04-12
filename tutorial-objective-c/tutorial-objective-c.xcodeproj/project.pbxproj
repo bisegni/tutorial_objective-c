@@ -34,6 +34,7 @@
 		321764C718F1995000E2682E /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
 		321D0F5E18F99F3700E88810 /* NSString+PersonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PersonUtility.h"; sourceTree = "<group>"; };
 		321D0F5F18F99F3700E88810 /* NSString+PersonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PersonUtility.m"; sourceTree = "<group>"; };
+		321D0F6518F9A51E00E88810 /* GoodBeaviour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodBeaviour.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 				321764C718F1995000E2682E /* XYZPerson.m */,
 				321D0F5E18F99F3700E88810 /* NSString+PersonUtility.h */,
 				321D0F5F18F99F3700E88810 /* NSString+PersonUtility.m */,
+				321D0F6518F9A51E00E88810 /* GoodBeaviour.h */,
 			);
 			path = "tutorial-objective-c";
 			sourceTree = "<group>";
