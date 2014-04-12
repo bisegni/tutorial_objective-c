@@ -40,7 +40,7 @@
 
 //-----------------protocol---------------
 - (NSString*)whatIsYourAge {
-    return [NSString stringWithFormat:@"My age is %ld", (long)[self.age integerValue]];
+    return [NSString stringWithFormat:@"My age is %ld", (long)self.age];
 }
 
 - (NSString*)whatIsYourSex {

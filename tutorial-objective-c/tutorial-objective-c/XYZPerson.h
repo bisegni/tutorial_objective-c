@@ -13,7 +13,7 @@
 
 @property NSString  *firstName;
 @property NSString  *secondName;
-@property NSNumber  *age;
+@property int       age;
 @property NSString  *sex;
 
 +(id) personWithName:(NSString*)name
