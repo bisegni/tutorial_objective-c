@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321390F618FAEC0D00E73748 /* Employe.m in Sources */ = {isa = PBXBuildFile; fileRef = 321390F518FAEC0D00E73748 /* Employe.m */; };
 		3217647918F196C400E2682E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3217647818F196C400E2682E /* Foundation.framework */; };
 		3217647C18F196C400E2682E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3217647B18F196C400E2682E /* main.m */; };
 		321764C818F1995000E2682E /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 321764C718F1995000E2682E /* XYZPerson.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		321390F418FAEC0D00E73748 /* Employe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employe.h; sourceTree = "<group>"; };
+		321390F518FAEC0D00E73748 /* Employe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employe.m; sourceTree = "<group>"; };
 		3217647518F196C400E2682E /* tutorial-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tutorial-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3217647818F196C400E2682E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3217647B18F196C400E2682E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				321D0F5E18F99F3700E88810 /* NSString+PersonUtility.h */,
 				321D0F5F18F99F3700E88810 /* NSString+PersonUtility.m */,
 				321D0F6518F9A51E00E88810 /* GoodBeaviour.h */,
+				321390F418FAEC0D00E73748 /* Employe.h */,
+				321390F518FAEC0D00E73748 /* Employe.m */,
 			);
 			path = "tutorial-objective-c";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				321764C818F1995000E2682E /* XYZPerson.m in Sources */,
 				321D0F6018F99F3700E88810 /* NSString+PersonUtility.m in Sources */,
 				3217647C18F196C400E2682E /* main.m in Sources */,
+				321390F618FAEC0D00E73748 /* Employe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "XYZPerson.h"
+#import "Employe.h"
 #import "NSString+PersonUtility.h"
 #import <Foundation/Foundation.h>
 
@@ -37,30 +38,15 @@ int main(int argc, const char * argv[]) {
         secondPerson.age = 41;
         secondPerson.sex = @"Male";
         
-        
-        
-        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-        dispatch_group_t group = dispatch_group_create();
-        dispatch_group_async(group, queue, ^{
-            for (int idx = 0; idx < 5; idx++) {
-                person.age++;
-                askToGoodPerson(person);
-                sleep(1);
-            }
-
-        });
-        
-        dispatch_group_async(group, queue, ^{
-            for (int idx = 0; idx < 5; idx++) {
-                secondPerson.age++;
-                askToGoodPerson(secondPerson);
-                sleep(1);
-            }
-        });
-        //waith for termination
-        dispatch_group_wait(group, DISPATCH_TIME_FOREVER);
         askToGoodPerson(person);
         askToGoodPerson(secondPerson);
+        
+        Employe *employe = [[Employe alloc] initWithName:@"Emanuele"
+                                                 surname:@"Turella"];
+        employe.level = 5;
+        employe.contractStartDate = [NSDate dateWithTimeIntervalSince1970:1104537600];
+        employe.contractEndDate = [[NSDate alloc] init];
+        NSLog(@"%@", [employe contractInfo]);
     }
     return 0;
 }
